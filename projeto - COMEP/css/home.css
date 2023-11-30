@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
     --azul_escuro_card:#00315b; /*azul escuro card serviços/palavras*/
     --azul_claro_card:#1c6cb1; /*azul claro card serviços*/
@@ -7,9 +9,18 @@
     --azul_claro_producao:#d7e9f9; /*azul clarinho produção*/
 }
 
+
+html {
+    height: 100%;
+}
+
 *{
     margin: 0;
     padding: 0;
+}
+
+main{
+    width: 100%;
 }
 
 article{
@@ -75,6 +86,7 @@ article{
 #retangulo_branco{
     display: block;
 }
+
 
 @media (min-width: 1281px){
     .retangulo_branco{
@@ -498,6 +510,19 @@ article{
     margin-top: 2.19rem;
 }
 
+.circulos {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+.circulos_img img{
+    height: 96px;
+    width: 96px;
+    border-radius: 50%;
+}
+
 .confiar_topicos{
     display: flex;
     padding-top: 4.25rem;
@@ -512,73 +537,4 @@ article{
     line-height: normal;
     align-self: center;
     padding: 0 1.5rem;
-}*/
-
-footer svg{
-    width: 100%;
-}
-
-.footer_comep{
-    display: block;
-    transform: translateY(-250%);
-    margin-left: 15rem;
-}
-
-.footer_comep_logo{
-    display: flex;
-    place-items: center;
-}
-
-.copyright{
-    display: block;
-    margin-top: 0.4rem;
-}
-
-.footer_comep span{
-    color: #F1F1F1;
-    /* Body 16 */
-    font-family: Montserrat;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.footer_comep_nome{
-    align-items: center;
-    place-items: center;
-}
-
-.footer_comep_nome h1{
-    color: #FFF;
-    font-family: Montserrat;
-    font-size: 3rem;
-    font-style: italic;
-    font-weight: 700;
-    line-height: normal;
-}
-
-.footer_comep_nome span{
-    color: #B0B0B0;
-    font-family: Montserrat;
-    font-size: 1.5rem;
-    font-style: italic;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.footer_fractal p{
-    color: #F1F1F1;
-    font-family: Montserrat;
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.footer_fractal{
-    width: 14.60875rem;
-    height: 3rem;
-    flex-shrink: 0;
-    transform: translateY(-250%);
 }

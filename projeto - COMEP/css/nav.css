@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+a {
+    text-decoration: none;
+    color: #00315B;
+    /* Link Navbar */
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+  
+a:hover {
+    opacity: 0.7;
+}
+  
+.logo {
+    display: flex;
+}
+
+.comep_nome h1{
+    color: #00315B;
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.comep_nome span{
+    color: #B0B0B0;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+  
+nav{
+    margin-top: 3.44rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+  
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+  
+.nav-list li {
+    letter-spacing: 1px;
+    margin-left: 3.4rem;
+}
+
+.botao_contato{
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 0.625rem 2.6875rem;
+    margin-top: -0.625rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    border-radius: 1.3125rem;
+    background: #00315B;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1920 530" fill="none"><path d="M1202 132C744.706 150.204 222.833 139.667 -52.5 66.5V530.5H2020.5V0C1982.83 44.6667 1616.5 115.5 1202 132Z" fill="%2300223F"/></svg>');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.footer_comep{
+    height: 20%;
+    transform: translateY(250%);
+}
+
+@media (min-width: 1281px){
+    footer{
+        height: 50vh;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    footer{
+        height: 44vh;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    footer{
+        height: 29.9vh;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px){
+
+    footer{
+        height: 18.77vh;
+    }
+
+}
+
+@media (min-width:320px) and (max-width: 480px){
+    footer{
+        height: 12.5vh;
+    }
+
+}
+
+.footer_comep_flexbox{
+    display: flex;
+}
+
+.footer_comep_logo{
+    display: flex;
+}
+
+.footer_comep_logo h1{
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer_comep_logo span{
+    color: #B0B0B0;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.copyright{
+    display: block;
+}
+
+.copyright span{
+    color: #F1F1F1;
+    font-family: Montserrat;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer_fractal{
+    height: 20%;
+    transform: translateY(250%);
+}
+
+.footer_fractal p{
+    padding: 0.2rem;
+    align-self: center;
+    color: #F1F1F1;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/servicos.css">
     <script src="index.js"></script>
     <title>COMEP - Home</title>
 </head>
@@ -46,236 +46,68 @@
         </nav>
     </header>
     <main>
-        <article id="comeco">
-            <div class="engrenagem">
-                <img src="../midia/engrenagem.png" alt="">
+      <div id="producao">
+            <div id="producao_texto">
+                <h2>produção</h2>
+                <p>Potencialize a produtividade <br> da sua empresa</p>
             </div>
-            <div class="otimizamos">
-                <p class="otimizamos-seu-caminho">Otimizamos seu caminho<br>para o sucesso</p>
-                <p class="impacto">Uma frase explicativa de impacto.Deve motivar o visitante a entrar em contato com a
-                    COMEP.
-                </p>
-                <button class="botao_escuro">Entre em contato agora</button>
+            <div id="producao_img">
+                <img src="../midia/Union_servicos.png">
             </div>
-        </article>
-        <article id="retangulo_branco">
-            <div class="retangulo_branco">
-                <p class="texto_retangulo_branco">Construimos o futuro da sua empresa com precisão e eficiência
-                </p>
-                <div class="switch_botao">
-                    <button id="botao_producao" onclick="mostrar_producao()">Produção</button>
-                    <button id="botao_mecanica" onclick="mostrar_mecanica()">Mecânica</buttson>
-                    <button id="botao_pacotes" onclick="mostrar_pacotes()">Pacotes</button>
-                </div>
-                <div class="cards">
-                    <div id="cards_producao">
-                        <div class="cards_padrao">
-                            <div class="cards_img">
-                            </div>
-                            <div class="cards_texto">
-                                <p class="cards_texto_titulo">Planejamento e controle de produção
-                                </p>
-                                <p class="cards_texto_texto">Fazemos e revisamos o planejamento da sua produção para
-                                    otimizar as relações entre estoque, produção e venda. Assim reduzindo excessos,
-                                    maximizando o potencial operacional e facilitando a tomada de decisão estratégica.
-                                </p>
-                                <button class="botao_escuro_cards">
-                                    Saiba Mais
-                                </button>
-                            </div>
-                        </div>
-                        <div class="cards_padrao">
-                            <div class="cards_img">
-                            </div>
-                            <div class="cards_texto">
-                                <p class="cards_texto_titulo">Planejamento e controle de produção
-                                </p>
-                                <p class="cards_texto_texto">Fazemos e revisamos o planejamento da sua produção para
-                                    otimizar as relações entre estoque, produção e venda. Assim reduzindo excessos,
-                                    maximizando o potencial operacional e facilitando a tomada de decisão estratégica.
-                                </p>
-                                <button class="botao_escuro_cards">
-                                    Saiba Mais
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="cards_mecanica">
-                        <div class="cards_padrao">
-                            <div class="cards_img">
-                            </div>
-                            <div class="cards_texto">
-                                <p class="cards_texto_titulo">484848548
-                                </p>
-                                <p class="cards_texto_texto">Fazemos e revisamos o planejamento da sua produção para
-                                    otimizar as relações entre estoque, produção e venda. Assim reduzindo excessos,
-                                    maximizando o potencial operacional e facilitando a tomada de decisão estratégica.
-                                </p>
-                                <button class="botao_escuro_cards">
-                                    Saiba Mais
-                                </button>
-                            </div>
-
-                        </div>
-                        <div class="cards_padrao">
-                            <div class="cards_img">
-                            </div>
-                            <div class="cards_texto">
-                                <p class="cards_texto_titulo">4848484
-                                </p>
-                                <p class="cards_texto_texto">Fazemos e revisamos o planejamento da sua produção para
-                                    otimizar as relações entre estoque, produção e venda. Assim reduzindo excessos,
-                                    maximizando o potencial operacional e facilitando a tomada de decisão estratégica.
-                                </p>
-                                <button class="botao_escuro_cards">
-                                    Saiba Mais
-                                </button>
-                            </div>
-                        </div>
-                    </div>    
-                    <div id="cards_pacotes">
-                        <div class="cards_padrao">
-                            <div class="cards_img">
-                            </div>
-                            <div class="cards_texto">
-                                <p class="cards_texto_titulo">teste1</p>
-                                <p class="cards_texto_texto">Fazemos e revisamos o planejamento da sua produção para
-                                        otimizar as relações entre estoque, produção e venda. Assim reduzindo excessos,
-                                        maximizando o potencial operacional e facilitando a tomada de decisão
-                                        estratégica.
-                                </p>
-                                <button class="botao_escuro_cards">
-                                    Saiba Mais
-                                </button>
-                            </div>
-                        </div>
-                        <div class="cards_padrao">
-                            <div class="cards_img">
-                            </div>
-                            <div class="cards_texto">
-                                <p class="cards_texto_titulo">teste1</p>
-                                <p class="cards_texto_texto">Fazemos e revisamos o planejamento da sua produção para
-                                        otimizar as relações entre estoque, produção e venda. Assim reduzindo excessos,
-                                        maximizando o potencial operacional e facilitando a tomada de decisão
-                                        estratégica.
-                                </p>
-                                <button class="botao_escuro_cards">
-                                    Saiba Mais
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      </div>  
+      <div id="cards_flexbox">
+        <div class="cards">
+            <div class="card_azul">
+                <svg xmlns="http://www.w3.org/2000/svg" width="52" height="54" viewBox="0 0 52 54" fill="none">
+                    <path d="M49.3501 44.5V9.5C49.3501 4.5 46.8501 2 41.8501 2H31.8501C26.8501 2 24.3501 4.5 24.3501 9.5V44.5C24.3501 49.5 26.8501 52 31.8501 52H41.8501C46.8501 52 49.3501 49.5 49.3501 44.5Z" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M24.3501 12H36.8501" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M24.3501 42H34.3501" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M24.3501 31.875L36.8501 32" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M24.3501 22H31.8501" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M9.4 2C5.325 2 2 5.325 2 9.375V41.775C2 42.9 2.475 44.6 3.05 45.575L5.1 48.975C7.45 52.9 11.325 52.9 13.675 48.975L15.725 45.575C16.3 44.6 16.775 42.9 16.775 41.775V9.375C16.775 5.325 13.45 2 9.4 2Z" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                    <path d="M16.775 14.5H2" stroke="white" stroke-width="4" stroke-linecap="round"/>
+                  </svg>
             </div>
-        </article>
-        <article>
-            <div class="retangulo_azul">
-                <div class="prova_social">
-                    <h3>18</h3>
-                    <p>projetos <br>realizados</p>
-                </div>
-                <div class="prova_social">
-                    <h3>+3</h3>
-                    <p>anos de <br>experiência</p>
-                </div>
-                <div class="prova_social">
-                    <h3>+50</h3>
-                    <p>empresários <br>juniores</p>
-                </div>
+            <div class="card_branco">
+                <h3>Planejamento e controle de produção</h3>
+                <p>Fazemos e revisamos o planejamento da sua produção para otimizar as relações entre estoque, produção e venda. Assim reduzindo excessos, maximizando o potencial operacional e facilitando a tomada de decisão estratégica.</p>
             </div>
-        </article>
-        <article>
-            <div class="contato">
-                <div class="contato_img">
-                    <img src="../midia/foto_contato.png" alt="">
-                </div>
-                <div class="contato_texto">
-                    <p>Não perca mais tempo, leve sua <br>empresa para o próximo nível!
-                    </p>
-                    <button class="botao_escuro">Entre em contato agora</button>
-                </div>
+        </div>
+        <div class="cards">
+            <div class="card_azul">
+                <svg xmlns="http://www.w3.org/2000/svg" width="57" height="50" viewBox="0 0 57 50" fill="none">
+                    <path d="M37.4745 50C36.3324 50 35.1904 49.761 34.2608 49.3095L20.3174 42.3245C19.5207 41.9262 17.9537 41.9527 17.1835 42.4042L10.9156 45.9896C8.20664 47.53 5.41798 47.7425 3.31984 46.4943C1.19514 45.2726 0 42.776 0 39.6421V13.8269C0 11.4101 1.59352 8.67453 3.69166 7.47939L15.1916 0.892828C17.1304 -0.222638 20.0784 -0.302315 22.0703 0.706917L36.0137 7.69186C36.8105 8.09024 38.3509 8.03712 39.1477 7.61218L45.389 4.05331C48.0979 2.51291 50.8866 2.30044 52.9847 3.5487C55.1094 4.7704 56.3046 7.26692 56.3046 10.4008V36.2426C56.3046 38.6594 54.7111 41.395 52.6129 42.5901L41.113 49.1767C40.1038 49.7079 38.7758 50 37.4745 50ZM18.8567 38.0751C19.9987 38.0751 21.1407 38.3142 22.0703 38.7657L36.0137 45.7506C36.8105 46.149 38.3509 46.0959 39.1477 45.6709L50.6476 39.0844C51.4975 38.6063 52.3208 37.1721 52.3208 36.216V10.3743C52.3208 8.70109 51.8427 7.45283 50.9663 6.97477C50.1164 6.49672 48.7885 6.68263 47.3543 7.50595L41.113 11.0648C39.1742 12.1803 36.2262 12.26 34.2343 11.2507L20.2909 4.26578C19.4941 3.8674 17.9537 3.92052 17.1569 4.34546L5.65701 10.932C4.80713 11.4101 3.98381 12.8443 3.98381 13.8269V39.6687C3.98381 41.3419 4.46186 42.5901 5.31174 43.0682C6.16162 43.5728 7.48956 43.3603 8.95029 42.537L15.1916 38.9781C16.2274 38.3673 17.5553 38.0751 18.8567 38.0751Z" fill="white"/>
+                    <path d="M18.6482 40.279C17.5592 40.279 16.6562 39.376 16.6562 38.2871V3.76076C16.6562 2.67186 17.5592 1.76886 18.6482 1.76886C19.7371 1.76886 20.6401 2.67186 20.6401 3.76076V38.2871C20.6401 39.376 19.7371 40.279 18.6482 40.279Z" fill="white"/>
+                    <path d="M37.6906 48.2469C36.6017 48.2469 35.6987 47.3439 35.6987 46.255V10.7194C35.6987 9.63054 36.6017 8.72754 37.6906 8.72754C38.7795 8.72754 39.6825 9.63054 39.6825 10.7194V46.255C39.6825 47.3439 38.7795 48.2469 37.6906 48.2469Z" fill="white"/>
+                  </svg>
             </div>
-        </article>
-        <article>
-            <div class="quem_somos">
-                <div class="quem_somos_img">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="113" height="96" viewBox="0 0 113 96" fill="none">
-                        <mask id="path-1-outside-1_119_10" maskUnits="userSpaceOnUse" x="10.325" y="0" width="97"
-                            height="96" fill="black">
-                            <rect fill="white" x="10.325" width="97" height="96" />
-                            <path fill-rule="evenodd" clip-rule="evenodd"
-                                d="M62.6865 13.8568L67.969 5L76.223 7.59002L75.0101 17.7239C77.4084 19.0016 79.6416 20.5485 81.6693 22.3243L89.9148 18.1005L95.5349 24.6771L89.5056 32.1525C91.0026 34.9311 92.1373 37.9337 92.8466 41.097L103.174 43.7329L103.034 52.3826L93.319 54.0378C92.868 57.0874 92.0262 60.0097 90.8462 62.7521L97.429 71.3661L91.959 78.068L83.6157 73.5144C81.7448 75.4209 79.6588 77.1156 77.397 78.5591L77.6355 88.3497L69.2711 90.5576L65.828 83.3009C63.4542 83.8054 60.9921 84.0709 58.4679 84.0709C57.1765 84.0709 55.9014 84.0014 54.646 83.866L51.4346 90.7424L42.9616 88.9968L43.1157 80.5591C40.2578 79.1734 37.6155 77.4128 35.2525 75.3413L28.057 79.2177L22.3017 72.7591L27.6216 65.8758C25.9675 62.8874 24.735 59.6331 24.0046 56.1932L15.325 53.399L15.9966 44.7742L23.5711 43.959C24.0619 40.4166 25.0793 37.0426 26.5419 33.9185L20.7108 27.0114L25.8489 20.0516L33.6512 23.8303C35.8593 21.639 38.3561 19.7381 41.0794 18.1898L40.2673 8.85971L48.4775 6.13384L52.8591 14.0508C54.6856 13.7586 56.559 13.6068 58.4679 13.6068C59.8955 13.6068 61.3033 13.6917 62.6865 13.8568Z" />
-                        </mask>
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                            d="M62.6865 13.8568L67.969 5L76.223 7.59002L75.0101 17.7239C77.4084 19.0016 79.6416 20.5485 81.6693 22.3243L89.9148 18.1005L95.5349 24.6771L89.5056 32.1525C91.0026 34.9311 92.1373 37.9337 92.8466 41.097L103.174 43.7329L103.034 52.3826L93.319 54.0378C92.868 57.0874 92.0262 60.0097 90.8462 62.7521L97.429 71.3661L91.959 78.068L83.6157 73.5144C81.7448 75.4209 79.6588 77.1156 77.397 78.5591L77.6355 88.3497L69.2711 90.5576L65.828 83.3009C63.4542 83.8054 60.9921 84.0709 58.4679 84.0709C57.1765 84.0709 55.9014 84.0014 54.646 83.866L51.4346 90.7424L42.9616 88.9968L43.1157 80.5591C40.2578 79.1734 37.6155 77.4128 35.2525 75.3413L28.057 79.2177L22.3017 72.7591L27.6216 65.8758C25.9675 62.8874 24.735 59.6331 24.0046 56.1932L15.325 53.399L15.9966 44.7742L23.5711 43.959C24.0619 40.4166 25.0793 37.0426 26.5419 33.9185L20.7108 27.0114L25.8489 20.0516L33.6512 23.8303C35.8593 21.639 38.3561 19.7381 41.0794 18.1898L40.2673 8.85971L48.4775 6.13384L52.8591 14.0508C54.6856 13.7586 56.559 13.6068 58.4679 13.6068C59.8955 13.6068 61.3033 13.6917 62.6865 13.8568Z"
-                            fill="#00315B" />
-                        <path
-                            d="M67.969 5L69.1665 1.18348L66.152 0.237557L64.5336 2.95103L67.969 5ZM62.6865 13.8568L62.2125 17.8286L64.7915 18.1363L66.1218 15.9058L62.6865 13.8568ZM76.223 7.59002L80.1947 8.06541L80.5894 4.76783L77.4206 3.77351L76.223 7.59002ZM75.0101 17.7239L71.0384 17.2485L70.713 19.9668L73.1293 21.2541L75.0101 17.7239ZM81.6693 22.3243L79.034 25.3335L81.0765 27.1222L83.493 25.8844L81.6693 22.3243ZM89.9148 18.1005L92.9557 15.5019L90.9031 13.1L88.0911 14.5404L89.9148 18.1005ZM95.5349 24.6771L98.6484 27.1883L100.733 24.6032L98.5758 22.0785L95.5349 24.6771ZM89.5056 32.1525L86.3921 29.6412L84.7236 31.7099L85.9842 34.0496L89.5056 32.1525ZM92.8466 41.097L88.9435 41.9722L89.4803 44.3661L91.8574 44.9728L92.8466 41.097ZM103.174 43.7329L107.173 43.7976L107.224 40.6385L104.163 39.8571L103.174 43.7329ZM103.034 52.3826L103.705 56.3258L106.979 55.768L107.033 52.4473L103.034 52.3826ZM93.319 54.0378L92.6471 50.0947L89.7866 50.582L89.362 53.4526L93.319 54.0378ZM90.8462 62.7521L87.1719 61.1711L86.2467 63.3212L87.668 65.1809L90.8462 62.7521ZM97.429 71.3661L100.528 73.8953L102.526 71.4476L100.607 68.9373L97.429 71.3661ZM91.959 78.068L90.0427 81.5791L92.9579 83.1702L95.0578 80.5973L91.959 78.068ZM83.6157 73.5144L85.532 70.0033L82.8783 68.555L80.7608 70.7128L83.6157 73.5144ZM77.397 78.5591L75.245 75.1873L73.3433 76.4011L73.3982 78.6565L77.397 78.5591ZM77.6355 88.3497L78.6564 92.2172L81.7112 91.4108L81.6343 88.2523L77.6355 88.3497ZM69.2711 90.5576L65.6573 92.2723L67.0809 95.2728L70.292 94.4252L69.2711 90.5576ZM65.828 83.3009L69.4419 81.5863L68.0874 78.7314L64.9965 79.3883L65.828 83.3009ZM54.646 83.866L55.075 79.8891L52.2318 79.5824L51.0218 82.1734L54.646 83.866ZM51.4346 90.7424L50.6274 94.6601L53.7219 95.2977L55.0588 92.435L51.4346 90.7424ZM42.9616 88.9968L38.9623 88.9238L38.9017 92.2443L42.1545 92.9145L42.9616 88.9968ZM43.1157 80.5591L47.115 80.6321L47.1617 78.0755L44.8609 76.9599L43.1157 80.5591ZM35.2525 75.3413L37.8894 72.3335L35.8008 70.5024L33.3554 71.8198L35.2525 75.3413ZM28.057 79.2177L25.0707 81.8789L27.1727 84.2377L29.9542 82.7392L28.057 79.2177ZM22.3017 72.7591L19.1367 70.3131L17.1058 72.9408L19.3153 75.4203L22.3017 72.7591ZM27.6216 65.8758L30.7865 68.3219L32.3952 66.2404L31.1213 63.9388L27.6216 65.8758ZM24.0046 56.1932L27.9173 55.3623L27.436 53.0957L25.2304 52.3857L24.0046 56.1932ZM15.325 53.399L11.337 53.0884L11.0917 56.2383L14.0992 57.2065L15.325 53.399ZM15.9966 44.7742L15.5686 40.7972L12.2666 41.1525L12.0087 44.4636L15.9966 44.7742ZM23.5711 43.959L23.9991 47.9361L27.1045 47.6019L27.5332 44.508L23.5711 43.959ZM26.5419 33.9185L30.1646 35.6144L31.2504 33.2951L29.5984 31.3382L26.5419 33.9185ZM20.7108 27.0114L17.4928 24.6356L15.6163 27.1775L17.6544 29.5917L20.7108 27.0114ZM25.8489 20.0516L27.5924 16.4516L24.6034 15.004L22.6308 17.6759L25.8489 20.0516ZM33.6512 23.8303L31.9077 27.4303L34.4577 28.6653L36.4688 26.6695L33.6512 23.8303ZM41.0794 18.1898L43.0564 21.667L45.2868 20.3989L45.0643 17.8429L41.0794 18.1898ZM40.2673 8.85971L39.0069 5.06347L36.0084 6.05901L36.2823 9.20657L40.2673 8.85971ZM48.4775 6.13384L51.9772 4.19689L50.369 1.29112L47.2171 2.3376L48.4775 6.13384ZM52.8591 14.0508L49.3594 15.9878L50.7188 18.4441L53.491 18.0006L52.8591 14.0508ZM64.5336 2.95103L59.2511 11.8078L66.1218 15.9058L71.4043 7.04897L64.5336 2.95103ZM77.4206 3.77351L69.1665 1.18348L66.7714 8.81652L75.0254 11.4065L77.4206 3.77351ZM78.9817 18.1992L80.1947 8.06541L72.2514 7.11464L71.0384 17.2485L78.9817 18.1992ZM84.3046 19.3151C82.0481 17.339 79.5621 15.6167 76.8908 14.1936L73.1293 21.2541C75.2547 22.3864 77.2351 23.758 79.034 25.3335L84.3046 19.3151ZM88.0911 14.5404L79.8456 18.7642L83.493 25.8844L91.7385 21.6606L88.0911 14.5404ZM98.5758 22.0785L92.9557 15.5019L86.8739 20.6991L92.494 27.2757L98.5758 22.0785ZM92.6191 34.6637L98.6484 27.1883L92.4214 22.1659L86.3921 29.6412L92.6191 34.6637ZM96.7497 40.2219C95.9592 36.6964 94.6946 33.3504 93.0271 30.2553L85.9842 34.0496C87.3106 36.5117 88.3154 39.1709 88.9435 41.9722L96.7497 40.2219ZM104.163 39.8571L93.8359 37.2213L91.8574 44.9728L102.184 47.6086L104.163 39.8571ZM107.033 52.4473L107.173 43.7976L99.174 43.6682L99.0342 52.318L107.033 52.4473ZM93.9908 57.981L103.705 56.3258L102.362 48.4395L92.6471 50.0947L93.9908 57.981ZM94.5205 64.3331C95.8355 61.2769 96.7735 58.0202 97.2759 54.6231L89.362 53.4526C88.9624 56.1546 88.2169 58.7424 87.1719 61.1711L94.5205 64.3331ZM100.607 68.9373L94.0244 60.3233L87.668 65.1809L94.2508 73.7949L100.607 68.9373ZM95.0578 80.5973L100.528 73.8953L94.3301 68.8368L88.8601 75.5388L95.0578 80.5973ZM81.6994 77.0255L90.0427 81.5791L93.8753 74.5569L85.532 70.0033L81.6994 77.0255ZM79.549 81.9309C82.0672 80.3237 84.3888 78.4375 86.4706 76.3161L80.7608 70.7128C79.1008 72.4043 77.2504 73.9074 75.245 75.1873L79.549 81.9309ZM81.6343 88.2523L81.3959 78.4617L73.3982 78.6565L73.6367 88.4471L81.6343 88.2523ZM70.292 94.4252L78.6564 92.2172L76.6146 84.4822L68.2502 86.6901L70.292 94.4252ZM62.2142 85.0156L65.6573 92.2723L72.885 88.843L69.4419 81.5863L62.2142 85.0156ZM58.4679 88.0709C61.2732 88.0709 64.0141 87.7758 66.6596 87.2135L64.9965 79.3883C62.8944 79.8351 60.7109 80.0709 58.4679 80.0709V88.0709ZM54.217 87.8429C55.6146 87.9937 57.0329 88.0709 58.4679 88.0709V80.0709C57.3201 80.0709 56.1881 80.0091 55.075 79.8891L54.217 87.8429ZM55.0588 92.435L58.2702 85.5586L51.0218 82.1734L47.8103 89.0498L55.0588 92.435ZM42.1545 92.9145L50.6274 94.6601L52.2417 86.8247L43.7688 85.0791L42.1545 92.9145ZM39.1163 80.4861L38.9623 88.9238L46.961 89.0698L47.115 80.6321L39.1163 80.4861ZM32.6157 78.3491C35.2451 80.6543 38.1868 82.6146 41.3705 84.1583L44.8609 76.9599C42.3288 75.7321 39.9858 74.1713 37.8894 72.3335L32.6157 78.3491ZM29.9542 82.7392L37.1497 78.8628L33.3554 71.8198L26.1599 75.6962L29.9542 82.7392ZM19.3153 75.4203L25.0707 81.8789L31.0434 76.5565L25.288 70.098L19.3153 75.4203ZM24.4567 63.4298L19.1367 70.3131L25.4666 75.2052L30.7865 68.3219L24.4567 63.4298ZM20.0918 57.0241C20.9059 60.8577 22.2794 64.4841 24.1219 67.8129L31.1213 63.9388C29.6555 61.2906 28.5642 58.4084 27.9173 55.3623L20.0918 57.0241ZM14.0992 57.2065L22.7788 60.0008L25.2304 52.3857L16.5507 49.5914L14.0992 57.2065ZM12.0087 44.4636L11.337 53.0884L19.3129 53.7095L19.9846 45.0848L12.0087 44.4636ZM23.143 39.982L15.5686 40.7972L16.4247 48.7512L23.9991 47.9361L23.143 39.982ZM22.9192 32.2225C21.2895 35.7038 20.1557 39.464 19.6089 43.4101L27.5332 44.508C27.9681 41.3693 28.8692 38.3814 30.1646 35.6144L22.9192 32.2225ZM17.6544 29.5917L23.4854 36.4988L29.5984 31.3382L23.7673 24.4311L17.6544 29.5917ZM22.6308 17.6759L17.4928 24.6356L23.9289 29.3871L29.0669 22.4273L22.6308 17.6759ZM35.3947 20.2303L27.5924 16.4516L24.1054 23.6516L31.9077 27.4303L35.3947 20.2303ZM39.1023 14.7125C36.0696 16.4368 33.2906 18.5528 30.8336 20.991L36.4688 26.6695C38.428 24.7252 40.6426 23.0395 43.0564 21.667L39.1023 14.7125ZM36.2823 9.20657L37.0945 18.5366L45.0643 17.8429L44.2522 8.51285L36.2823 9.20657ZM47.2171 2.3376L39.0069 5.06347L41.5277 12.6559L49.7378 9.93007L47.2171 2.3376ZM56.3589 12.1139L51.9772 4.19689L44.9777 8.07078L49.3594 15.9878L56.3589 12.1139ZM58.4679 9.60683C56.3466 9.60683 54.262 9.77555 52.2273 10.101L53.491 18.0006C55.1093 17.7417 56.7714 17.6068 58.4679 17.6068V9.60683ZM63.1604 9.88497C61.6203 9.7012 60.0543 9.60683 58.4679 9.60683V17.6068C59.7368 17.6068 60.9863 17.6823 62.2125 17.8286L63.1604 9.88497Z"
-                            fill="white" mask="url(#path-1-outside-1_119_10)" />
-                        <path
-                            d="M44.8106 42.73L43.8886 42.4731L43.1102 43.0299L4.8365 70.4044L3.19683 71.5772L4.38253 73.2075L9.45188 80.1779L10.679 81.8651L12.3129 80.5679L44.7325 54.8302L69.2372 61.2917L70.2926 61.5699L71.0977 60.8329L96.9028 37.2085L100.783 39.9528L103.241 41.6917L103.891 38.7512L108.453 18.0936L109.27 14.3954L105.755 15.8062L87.7588 23.0301L85.0539 24.1158L87.04 26.249L89.0925 28.4535L66.9293 48.8943L44.8106 42.73Z"
-                            fill="white" stroke="#00315B" stroke-width="4" />
-                    </svg>
-                    <img src="../midia/pessoal_comep.png" alt="comep">
-                </div>
-                <div class="quem_somos_texto">
-                    <p class="quem_somos_titulo">Quem somos?</p>
-                    <p class="texto2">A EMPRESA JÚNIOR DE ENGENHARIA<br>MECÂNICA E DE PRODUÇÃO DA PUCPR
-                    </p>
-                    <p class="textinho">Textinho falando sobre porque a COMEP é braba e algumas coisas mais a definir.
-                    </p>
-                </div>
+            <div class="card_branco">
+                <h3>Mapeamento de Processos</h3>
+                <p>Identificamos e entendemos a sequência das atividades que compõem o fluxo de trabalho da sua empresa. Ele serve para mapear o passo a passo de operações como entradas, saídas e ações gerais.</p>
             </div>
-        </article>
-        <article>
-            <div class="confiar">
-                <div class="confiar_retangulo_branco">
-                    <h2>Por que confiar na gente?</h2>
-                </div>
-                <div class="confiar_retangulo_azul">
-                    <div class="coluna1">
-                        <div class="confiar_topicos">
-                            <div class="circulos_img">
-                                <img src="../midia/imagem_chave_azul.jpg" alt="">
-                            </div>    
-                            <p>Experiência em projetos desafiadores</p>
-                        </div>
-                        <div class="confiar_topicos">
-                            <div class="circulos_img">
-                                <img src="../midia/imagem_mao_dadas.jpg" alt="">
-                            </div>    
-                            <p>Compromisso com a qualidade</p>
-                        </div>
-                    </div>
-                    <div class="coluna2">
-                        <div class="confiar_topicos">
-                            <div class="circulos_img">
-                                <img src="../midia/abordagem_personalizada.png" alt="">
-                            </div>    
-                            <p>Abordagem Personalizada</p>
-                        </div>
-                        <div class="confiar_topicos">
-                            <div class="circulos_img">
-                                <img src="../midia/pensamento.jpg" alt="">
-                            </div>    
-                            <p>Visão Inovadora</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>
-        <article>
-            <div class="contato">
-                <div class="contato_texto" id="contato_texto2">
-                    <p>Não perca mais tempo, leve sua<br>empresa para o próximo nível!
-                    </p>
-                    <button class="botao_escuro" id="botao_escuro2">Entre em contato agora</button>
-                </div>
-                <div class="contato_img">
-                    <img src="../midia/foto_contato2.png" alt="">
-                </div>
-            </div>
-        </article>
+        </div>
+      </div>
+      <div id="forms">
+        <div>
+            <p>Potencialize a produtividade da <br><span>sua empresa</span></p>
+        </div>
+        <form action="" id="formulario">
+            <input type="text" placeholder="Seu nome*">
+            <input type="text" placeholder="Seu e-mail*">
+            <input type="text" placeholder="Seu telefone*">
+            <select id="contatado">
+                <option disabled selected class="opcao_desligada">Como prefere ser contatado?</option>
+                <option>E-mail</option>
+                <option>Telefone</option>
+            </select>
+            <select id="ajuda">
+                <option disabled selected class="opcao_desligada">Como podemos te ajudar?</option>
+                <option>opção1</option>
+                <option>opção2</option>
+            </select>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
+        </form>
+      </div>
     </main>
     <footer>
         <div class="footer_comep">
