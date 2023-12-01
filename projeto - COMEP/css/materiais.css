@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --azul_escuro_card:#00315b; /*azul escuro card serviços/palavras*/
+    --azul_claro_card:#1c6cb1; /*azul claro card serviços*/
+    --azul_claro_fundo:#2a5a84; /*azul fundo claro serviços*/
+    --azul_escuro_fundo:#00223f; /*azul escuro footer */
+    --cinza:#b1b1b1; /*cinza claro */
+    --azul_claro_materiais:#d7e9f9; /*azul clarinho produção*/
+}
+
+html {
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    width: 100%;
+}
+
+#materiais{
+    margin-top: 50px;
+    width: 100%;
+    height: 740px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#materiais_texto{
+    margin-right:70px;
+    width: 308px;
+}
+
+#materiais_texto h2{
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+#materiais_texto p{
+    color: #BFBFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+#materiais_img{
+    width: 550px;
+    height: 550px;
+}
+
+#materiais_img img{
+    width: 100%;
+}
+
+#tipos_materiais{
+    margin-top: 130px;
+}
+
+#pesquisa_materiais{
+    width: 1274px;
+    height: 71px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #00315B;
+    display: flex;
+    margin: auto;
+    margin-bottom: 70px;
+}
+
+#pesquisa_materiais span{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 24px 0px 24px 28px;
+}
+
+.barra_de_pesquisa{
+    width: 383px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #EAEAEA;
+    background: #FFF;
+    padding: 13px 0px 13px 21px;
+    margin: 13px 0px 12px 36px;
+}
+
+.barra_de_pesquisa::placeholder{
+    color: #BABABA;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+#pesquisa_materiais select{
+    width: 383px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 2px solid #EAEAEA;
+    background: #FFF;
+    color: #7D7D7D;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 13px 0px 12px 35px;
+}
+
+#pesquisa_materiais button{
+    width: 141.463px;
+    height: 46px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #1C6CB1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-self: center;
+    padding: 11px 43px;
+    margin: 13px 20px 12px 40px;
+}
+
+
+#flexbox_tipos_materiais{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 1300px;
+    margin: auto;
+}
+
+.card_materiais{
+    margin: 44px 22px 44px 22px;
+    width: 352px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+
+.card_azul{
+    width: 75px;
+    height: 75px;
+    flex-shrink: 0;
+    margin: auto;
+    transform: translateY(-35px);
+}
+
+.infos{
+    transform: translateY(-35px)
+}
+
+.card_materiais h3{
+    color: #00315B;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 9px 0px 8px 0px ;
+}
+
+.card_materiais span{
+    width: 55px;
+    height: 24px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #1C6DB1;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 8px;
+    padding: 4px 13px 5px 13px;
+}
+
+.card_materiais p{
+    width: 318px;
+    height: 60px;
+    color: #666;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 13px 17px 0px 17px;
+}
+
+.card_materiais button{
+    width: 141.463px;
+    height: 40px;
+    flex-shrink: 0;
+    border-radius: 21px;
+    background: #00315B;
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 10px 42px;
+    display: fixed;
+    transform: translateY(20px)
+}

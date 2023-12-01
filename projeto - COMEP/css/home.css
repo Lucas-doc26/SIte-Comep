@@ -48,7 +48,7 @@ article{
 .otimizamos-seu-caminho{
     color: #00315B;
     /* Header 1 */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 800;
@@ -59,7 +59,7 @@ article{
     width: 21.5625rem;
     color: #4D4D4D;
     /* Body (p) */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
@@ -75,7 +75,7 @@ article{
     gap: 0.625rem;
     color: #FFF;
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
@@ -180,7 +180,7 @@ article{
     color: #00315B;
     text-align: center;
     /* Header 2 */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -202,7 +202,7 @@ article{
     border: none;
     color: #00315B;
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
@@ -285,7 +285,7 @@ article{
     color: #00315B;
     text-align: center;
     /* Header 4 */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
@@ -302,7 +302,7 @@ article{
     color: #666;
     text-align: center;
     /* Body 16 */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -320,7 +320,7 @@ article{
     transform: translateY(75%);
     color: #FFF;
     text-align: center;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
@@ -351,7 +351,7 @@ article{
     color: #FFF;
     text-align: center;
     /* Header 1 */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 2.5rem;
     font-style: normal;
     font-weight: 800;
@@ -362,7 +362,7 @@ article{
     color: #D9D9D9;
     text-align: center;
     /* Bold (b) */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 600;
@@ -392,7 +392,7 @@ article{
 .contato_texto p{
     color: #00315B;
     /* Header 3 */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
@@ -426,7 +426,7 @@ article{
 .quem_somos_titulo{
     color: #00315B;
     /* Header 5 */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1rem;
     font-style: normal;
     font-weight: 700;
@@ -437,7 +437,7 @@ article{
 .quem_somos_texto > .texto2{
     color: #000;
     /* Header 4 */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
@@ -447,7 +447,7 @@ article{
 .quem_somos_texto > .textinho{
     color: #666;
     /* Body 16 */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -475,7 +475,7 @@ article{
     text-align: center;
     color: #00315B;
     /* Header 3 */
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 700;
@@ -530,7 +530,7 @@ article{
 
 .confiar_topicos p{
     color: #FFF;
-    font-family: Montserrat;
+    font-family: 'Montserrat';
     font-size: 1.25rem;
     font-style: normal;
     font-weight: 700;
