@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/materiais.css">
-    <script defer src="../js/materiais.js"></script>
+    <link rel="stylesheet" href="../css/contato.css">
     <title>COMEP - Home</title>
 </head>
 
@@ -46,46 +45,36 @@
         </nav>
     </header>
     <main>
-        <div id="materiais">
-            <div id="materiais_texto">
-                <h2>Materiais</h2>
-                <p>Conheça todos os Guias e Ebooks exclusivos produzidos pelo nosso time</p>
-            </div>
-            <div id="materiais_img">
-                <img src="../midia/Union_materiais.png">
-            </div>
-      </div>  
-      <div id="tipos_materiais">
-        <div id="pesquisa_materiais">
-            <span>Pesquisar materiais</span>
-            <form class="formulario_pesquisa" id="formulario_pesquisa">
-                <div class="div_pesquisa">
-                    <input class="barra_de_pesquisa" type="text" placeholder="Busca textual" name="barra_de_pesquisa" id="barraDePesquisa">
-                </div>
-            </form>
-            <select>
-                <option disabled selected>Selecione uma categoria</option>
-                <option value="">opcao1</option>
-                <option value="">option2</option>
-            </select>
-            <button onclick="buscar()">Buscar</button>
-        </div>
-        <div id="flexbox_tipos_materiais">
+        <p id="contato">CONTATO</p>
+        <div id="forms">
             
-        </div> 
-      </div>
-      <div id="formulario_serviços">
-        <div id="texto_forms">
-            <p>Que tal contratar uma consultoria pra alavancar seus resultados?</p>
-        </div>
-        <form id="formulario">
-            <input type="text" placeholder="Seu nome*">
-            <input type="text" placeholder="Seu e-mail*">
-            <input type="text" placeholder="Seu telefone*">
-            <textarea placeholder="Escreva uma mensagem"></textarea>
-            <button>Enviar</button>
-        </form>
-      </div>
+            <div id="textos_formulario">
+                <div id="potencialize">
+                    <p>Potencialize a produtividade da <br><span>sua empresa</span></p>
+                </div>
+                <div id="textinho">
+                    Temos especialistas prontos para te ajudar a identificar qual o próximo passo para a evolução da sua empresa, sem compromisso! <br>
+                Deixe seus dados no formulário ao lado e entraremos em contato em seguida!
+                </div>
+            </div>
+            <form action="" id="formulario">
+                <input type="text" placeholder="Seu nome*">
+                <input type="text" placeholder="Seu e-mail*">
+                <input type="text" placeholder="Seu telefone*">
+                <select id="contatado">
+                    <option disabled selected class="opcao_desligada">Como prefere ser contatado?</option>
+                    <option>E-mail</option>
+                    <option>Telefone</option>
+                </select>
+                <select id="ajuda">
+                    <option disabled selected class="opcao_desligada">Como podemos te ajudar?</option>
+                    <option>opção1</option>
+                    <option>opção2</option>
+                </select>
+                <textarea cols="30" rows="10" placeholder="Escreva uma mensagem"></textarea>
+                <button>Enviar</button>
+            </form>
+          </div>
     </main>
     <footer>
         <div class="footer_comep">
